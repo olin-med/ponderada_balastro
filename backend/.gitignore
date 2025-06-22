@@ -1,0 +1,71 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sw?
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+# React Native
+android/
+ios/
+*.keystore
+*.jks
+
+# Expo cache
+__generated__/
+*.expo*
+*.tlog
+.expo/*
+.expo-shared/assets.json
+
+# macOS
+*.DS_Store
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Misc
+*.bak
+*.orig
+
+# SQLite (if using locally)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
